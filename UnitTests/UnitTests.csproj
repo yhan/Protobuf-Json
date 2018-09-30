@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="newtonsoft.json" Version="11.0.2" />
+    <PackageReference Include="nfluent" Version="2.3.1" />
+    <PackageReference Include="nunit" Version="3.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProtobufTest\ProtobufTest.csproj" />
+  </ItemGroup>
+
+</Project>
